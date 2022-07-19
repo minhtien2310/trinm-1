@@ -1,0 +1,55 @@
+﻿@using WebsiteBanHang.Models;
+@model IEnumerable<SanPham>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/HomeLayout.cshtml";
+}
+@{
+    //định nghĩa các viewbag để truyền vào partial view
+    IEnumerable<SanPham> lstLTM = (IEnumerable<SanPham>)ViewBag.ListLTM;    //cách ép kiểu 1
+    IEnumerable<SanPham> lstPCM = ViewBag.ListPCM as IEnumerable<SanPham>;   //cách ép kiểu 2
+    IEnumerable<SanPham> lstDTM = ViewBag.ListDTM as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstBPM = ViewBag.ListBPM as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstCM  = ViewBag.ListCM as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstTNM = ViewBag.ListTNM as IEnumerable<SanPham>;
+    IEnumerable<SanPham> lstMHM = ViewBag.ListMHM as IEnumerable<SanPham>;
+}
+<!--bc1: tách code và lồng partialview  -->
+<!-- bc2: gán data từ controller qua viewbag vào partialview -->
+<!--Laptop-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstLTM) @*dùng đg dẫn tuyệt đối vì khác folder và truyền vào model của lstLTM*@
+</div>
+
+<!--Điện thoại-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstDTM)
+</div>
+
+<!--Pc-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstPCM) @*dùng đg dẫn tuyệt đối vì khác folder và truyền vào model của lstPCM*@
+</div>
+
+<!--Pc-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstMHM) @*dùng đg dẫn tuyệt đối vì khác folder và truyền vào model của lstPCM*@
+</div>
+
+<!--Pc-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstBPM) @*dùng đg dẫn tuyệt đối vì khác folder và truyền vào model của lstPCM*@
+</div>
+
+<!--Pc-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstCM) @*dùng đg dẫn tuyệt đối vì khác folder và truyền vào model của lstPCM*@
+</div>
+
+<!--Pc-->
+<div class="container">
+    @Html.Partial("~/Views/SanPham/SanPhamStyle1Partial.cshtml", lstTNM) @*dùng đg dẫn tuyệt đối vì khác folder và truyền vào model của lstPCM*@
+</div>
+
+<a href="~/GioHang/DatHang">content</a>
