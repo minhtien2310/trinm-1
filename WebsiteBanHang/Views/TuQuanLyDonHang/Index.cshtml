@@ -1,0 +1,35 @@
+﻿@using WebsiteBanHang.Models;
+@model IEnumerable<DonDatHang>
+@{
+    ViewBag.Title = "Quản lí đơn hàng";
+    Layout = "~/Views/Layout/RegisterLayout.cshtml";
+    WebGrid grid = new WebGrid(source: Model, rowsPerPage: 10);
+}
+<h2 style="font-size:40px; text-align:center; margin-top:10px; margin-bottom:10px; color:black;">Đơn hàng của tôi</h2>
+
+<div class="card">
+    <div class="card-body">
+        @if (grid != null)
+        {
+            <div id="list" class="table-responsive" style="margin-left:200px; width:1100px;">
+                @grid.GetHtml(
+                      tableStyle: "table table-bordered table-hover",
+                      headerStyle: "",
+                      footerStyle: "text-center",
+                      numericLinksCount: 10,
+                      mode: WebGridPagerModes.All, firstText: "Trang đầu", lastText: "Trang cuối",
+                      columns: grid.Columns(
+                          grid.Column("MaDDH", "Mã đơn hàng"),
+                          grid.Column("MaKH", "Họ tên KH", format: p => p.MaKH != null ? p.KhachHang.TenKH : ""),
+                          grid.Column("NgayDat", "Ngày đặt"),
+                          grid.Column("TinhTrangGiaoHang", "Tình trạng giao hàng"),
+                          grid.Column("NgayGiao", "Ngày giao"),
+                          grid.Column("DaThanhToan", "Đã thanh toán"),
+                          grid.Column("DaHuy", "Đã hủy"),
+                          grid.Column(format: p => Html.ActionLink("Xem chi tiết", "DuyetDonHang", new { id = p.MaDDH }, new { @target = "_blank" }))
+                          )
+                      )
+            </div>
+        }
+    </div>
+</div>

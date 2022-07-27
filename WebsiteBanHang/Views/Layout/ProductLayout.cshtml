@@ -65,41 +65,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <ul class="menu">
                         <li class="item1">
-                            <a href="#">Alienware </a>
+                            <a href="@Url.Action("HangSanPham","SanPham",new { @MaNSX = 1})">Apple </a>
                         </li>
                         <li class="item2">
-                            <a href="#">Asus </a>
+                            <a href="@Url.Action("HangSanPham","SanPham",new { @MaNSX = 2})">Dell </a>
                         </li>
                         <li class="item3">
-                            <a href="#">Dell</a>
+                            <a href="@Url.Action("HangSanPham","SanPham",new { @MaNSX = 15})">SamSung</a>
                         </li>
                         <li class="item4">
-                            <a href="#">Razor</a>
+                            <a href="@Url.Action("HangSanPham","SanPham",new { @MaNSX = 8})">Logitech</a>
                         </li>
 
                     </ul>
                 </div>
-                <!--initiate accordion-->
-                <script type="text/javascript">
-                    $(function () {
-                        var menu_ul = $('.menu > li > ul'),
-                            menu_a = $('.menu > li > a');
-                        menu_ul.hide();
-                        menu_a.click(function (e) {
-                            e.preventDefault();
-                            if (!$(this).hasClass('active')) {
-                                menu_a.removeClass('active');
-                                menu_ul.filter(':visible').slideUp('normal');
-                                $(this).addClass('active').next().stop(true, true).slideDown('normal');
-                            } else {
-                                $(this).removeClass('active');
-                                $(this).next().stop(true, true).slideUp('normal');
-                            }
-                        });
 
-                    });
-                </script>
-                <!---->
                 <div class="sellers">
                     <div class="of-left-in">
                         <h3 class="tag">Thẻ</h3>
@@ -132,41 +112,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="product-go">
                         <div class=" fashion-grid">
-                            <a href="#"><img class="img-responsive " src="~/Content/HinhAnhSP/alienware-m15-r1-1.png" alt=""></a>
+                            <a href="@Url.Action("XemChiTiet","SanPham" ,new {@id=1, @tensp = "Macbook Air M2 2022 256GB" } )"><img class="img-responsive " src="~/Content/HinhAnhSP/Macbook_Air_M2_2022_256.jpg" alt=""></a>
 
                         </div>
                         <div class=" fashion-grid1">
                             <h6 class="best2">
-                                <a href="#">
-                                    Alienware M15 R1
+                                <a href="@Url.Action("XemChiTiet","SanPham" ,new {@id=1, @tensp = "Macbook Air M2 2022 256GB" } )">
+                                    Macbook Air M2 2022
                                 </a>
                             </h6>
 
-                            <span class=" price-in1"> 35,000,000</span>
+                            <span class=" price-in1"> 32,990,000</</span>
                         </div>
 
                         <div class="clearfix"> </div>
                     </div>
                     <div class="product-go">
                         <div class=" fashion-grid">
-                            <a href="#"><img class="img-responsive " src="~/Content/HinhAnhSP/alienware-m15-r1-2.png" alt=""></a>
+                            <a href="@Url.Action("XemChiTiet","SanPham" ,new {@id=151, @tensp = "iPhone 13 Pro Max 1TB" } )"><img class="img-responsive " src="~/Content/HinhAnhSP/iPhone 13 Pro Max 1TB.png" alt=""></a>
 
                         </div>
                         <div class="fashion-grid1">
                             <h6 class="best2">
-                                <a href="#">
-                                    Alienware M15 R2
+                                <a href="@Url.Action("XemChiTiet","SanPham" ,new {@id=151, @tensp = "iPhone 13 Pro Max 1TB" } )">
+                                    iPhone 13 Pro Max 1TB
                                 </a>
                             </h6>
 
-                            <span class=" price-in1"> 37,000,000</span>
+                            <span class=" price-in1"> 44,000,000</span>
                         </div>
 
                         <div class="clearfix"> </div>
                     </div>
 
                 </div>
-                
+
             </div>
             @RenderBody()
             

@@ -11,9 +11,10 @@
         <h2>Quản lí đơn hàng (Đã thanh toán & chưa giao )</h2>
         <br />
         <ul class="nav nav-pills nav-justified">
-            <li class="nav-item"><a class="nav-link" href="@Url.Action("ChuaThanhToan","QuanLyDonHang")">CHƯA THANH TOÁN</a></li>
+            <li class="nav-item"><a class="nav-link" href="@Url.Action("ChuaThanhToan","QuanLyDonHang")">CHƯA THANH TOÁN & CHƯA GIAO</a></li>
             <li class="nav-item"><a class="nav-link active" href="@Url.Action("ChuaGiao","QuanLyDonHang")">ĐÃ THANH TOÁN & CHƯA GIAO</a></li>
             <li class="nav-item"><a class="nav-link" href="@Url.Action("DaGiaoDaThanhToan","QuanLyDonHang")">ĐÃ THANH TOÁN & ĐÃ GIAO</a></li>
+            <li class="nav-item"><a class="nav-link" href="@Url.Action("DaHuy","QuanLyDonHang")">ĐÃ HỦY</a></li>
         </ul>
         <br />
         @if (grid != null)
@@ -32,7 +33,6 @@
                           grid.Column("TinhTrangGiaoHang", "Tình trạng giao hàng"),
                           grid.Column("NgayGiao", "Ngày giao"),
                           grid.Column("DaThanhToan", "Đã thanh toán"),
-                          grid.Column("UuDai", "Ưu đãi"),
                           grid.Column("DaHuy", "Đã hủy"),
                           grid.Column(format: p => Html.ActionLink("Duyệt đơn", "DuyetDonHang", new { id = p.MaDDH },new { @target = "_blank" }))  //chưa có ddh thì ko hiển thị
                           )

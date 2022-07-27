@@ -23,6 +23,7 @@ namespace WebsiteBanHang.Models
     
         public int MaThanhVien { get; set; }
         public string TaiKhoan { get; set; }
+        public string MatKhau { get; set; }
         public string HoTen { get; set; }
         public string DiaChi { get; set; }
         public string Email { get; set; }
@@ -30,7 +31,6 @@ namespace WebsiteBanHang.Models
         public string CauHoi { get; set; }
         public string CauTraLoi { get; set; }
         public Nullable<int> MaLoaiTV { get; set; }
-        public string MatKhau { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<BinhLuan> BinhLuans { get; set; }

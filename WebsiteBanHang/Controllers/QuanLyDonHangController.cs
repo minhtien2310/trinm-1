@@ -19,21 +19,28 @@ namespace WebsiteBanHang.Controllers
         public ActionResult ChuaThanhToan()
         {   
             //lấy ds đơn hàng chưa duyệt
-            var lst = db.DonDatHangs.Where(n => n.DaThanhToan == false).OrderBy(n => n.NgayDat);
+            var lst = db.DonDatHangs.Where(n => n.DaThanhToan == false && n.TinhTrangGiaoHang == false && n.DaHuy == false).OrderBy(n => n.NgayDat);
             return View(lst);
         }
 
         public ActionResult ChuaGiao()
         {
             //lấy ds đơn hàng chưa giao
-            var lstDSDHCG = db.DonDatHangs.Where(n => n.TinhTrangGiaoHang == false && n.DaThanhToan == true).OrderBy(n => n.NgayGiao);
+            var lstDSDHCG = db.DonDatHangs.Where(n => n.TinhTrangGiaoHang == false && n.DaThanhToan == true && n.DaHuy == false).OrderBy(n => n.NgayDat);
             return View(lstDSDHCG);
         }
         
         public ActionResult DaGiaoDaThanhToan()
         {
             //lấy ds đơn hàng đã giao và thanh toán
-            var lstDSDHCG = db.DonDatHangs.Where(n => n.TinhTrangGiaoHang == true && n.DaThanhToan==true).OrderBy(n => n.NgayGiao);
+            var lstDSDHCG = db.DonDatHangs.Where(n => n.TinhTrangGiaoHang == true && n.DaThanhToan== true && n.DaHuy == false).OrderBy(n => n.NgayDat);
+            return View(lstDSDHCG);
+        }
+
+        public ActionResult DaHuy()
+        {
+            //lấy ds đơn hàng đã giao và thanh toán
+            var lstDSDHCG = db.DonDatHangs.Where(n => n.DaHuy == true).OrderBy(n => n.NgayDat);
             return View(lstDSDHCG);
         }
 
@@ -59,9 +66,15 @@ namespace WebsiteBanHang.Controllers
         [HttpPost]
         public ActionResult DuyetDonHang(DonDatHang ddh)
         {
+
             DonDatHang ddhUpdate = db.DonDatHangs.Single(n => n.MaDDH == ddh.MaDDH);    //lấy dl của đơn hàng trên
             ddhUpdate.DaThanhToan = ddh.DaThanhToan;
             ddhUpdate.TinhTrangGiaoHang = ddh.TinhTrangGiaoHang;
+            ddhUpdate.NgayGiao = DateTime.Now;
+            if (ddhUpdate.TinhTrangGiaoHang ==false)
+            {
+                ddhUpdate.NgayGiao = null;
+            }
             db.SaveChanges();
 
             var lstChiTietDH = db.ChiTietDonDatHangs.Where(n => n.MaDDH == ddh.MaDDH);

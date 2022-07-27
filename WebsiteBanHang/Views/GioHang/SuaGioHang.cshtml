@@ -8,52 +8,6 @@
 }
 
 
-@*<table class="table">
-    <tr>
-        <td>Mã SP</td>
-        <td>Tên SP</td>
-        <td>Hình ảnh</td>
-        <td>Số lượng</td>
-        <td>Đơn giá</td>
-        <td>Thành tiền</td>
-    </tr>
-    @foreach (var item in lstGioHang)
-    {
-        //sp có mã sp đc chỉnh sửa gửi từ tham số bên trang xem giỏ hàng
-        if (Model.MaSP == item.MaSP)
-        {
-            using (Html.BeginForm("CapNhatGioHang", "GioHang", FormMethod.Post ,new {@id = "myform" }))
-            {
-                <tr>
-                    <td>@item.MaSP @Html.Hidden("MaSP", item.MaSP)</td>
-                    <td>@item.TenSP</td>
-                    <td><img src="@Url.Content("~/Content/HinhAnhSP/" + item.HinhAnh)" width="150" height="150" /></td>
-                    <td>@Html.TextBox("SoLuong", item.SoLuong)</td>
-                    <td>@item.DonGia.ToString("#,##") đồng</td>
-                    <td>@item.ThanhTien.ToString("#,##") đồng</td>
-                    <td>
-                        <!-- <a href="#" onclick='document.forms["myform"].submit(); return false;'>Cập nhật </a> -->
-                        <input type="submit" value="Cập nhật" />
-                        @Html.ActionLink("Xóa", "XoaGioHang", new { @MaSP = item.MaSP })
-                    </td>
-                </tr>
-            }
-        }
-        else
-        {
-            <tr>
-                <td>@item.MaSP</td>
-                <td>@item.TenSP</td>
-                <td><img src="@Url.Content("~/Content/HinhAnhSP/" + item.HinhAnh)" width="150" height="150" /></td>
-                <td>@item.SoLuong</td>
-                <td>@item.DonGia.ToString("#,##") đồng</td>
-                <td>@item.ThanhTien.ToString("#,##") đồng</td>
-                <td>@Html.ActionLink("Sửa giỏ hàng", "SuaGioHang", new { @MaSP = item.MaSP })</td>
-            </tr>
-        }
-    }
-</table>*@
-
 <div class="container" style="text-align:left;">
     <div class="check">
         <div class="col-md-9 cart-items">

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WebsiteBanHang.Models;
@@ -11,7 +12,6 @@ namespace WebsiteBanHang.Controllers
     public class QuanLyPhieuNhapController : Controller
     {
         QuanLyBanHangEntities db = new QuanLyBanHangEntities();
-
         // GET: QuanLyPhieuNhap
         [HttpGet]
         public ActionResult NhapHang()
@@ -25,29 +25,44 @@ namespace WebsiteBanHang.Controllers
         [HttpPost]
         public ActionResult NhapHang(PhieuNhap model, IEnumerable<ChiTietPhieuNhap> lstModel)
         {
-
-            ViewBag.MaNCC = db.NhaCungCaps;
-            ViewBag.ListSanPham = db.SanPhams;
-            ViewBag.NgayNhap = DateTime.Today;
-
-            model.NgayNhap = ViewBag.NgayNhap;
-            model.DaXoa = false;
-            //Sau khi đã ktra hết dl đầu vào
-
-            db.PhieuNhaps.Add(model);
-            db.SaveChanges();   //save để lấy MaPN gán cho lst chitietpn
-            SanPham sp;
-            foreach (var item in lstModel)
+            if(lstModel !=null)
             {
-                sp = db.SanPhams.Single(n => n.MaSP == item.MaSP);
-                sp.SoLuongTon += item.SoLuongNhap;  //update solg tồn
+                @ViewBag.KetQuaNhap = "Nhập hàng thành công";
+                ViewBag.MaNCC = db.NhaCungCaps;
+                ViewBag.ListSanPham = db.SanPhams;
+                ViewBag.NgayNhap = DateTime.Today;
 
-                item.MaPN = model.MaPN; //gán MaPN cho all chitietpn
+                model.NgayNhap = ViewBag.NgayNhap;
+                model.DaXoa = false;
+                //Sau khi đã ktra hết dl đầu vào
+
+                db.PhieuNhaps.Add(model);
+                db.SaveChanges();   //save để lấy MaPN gán cho lst chitietpn
+                SanPham sp;
+
+
+                foreach (var item in lstModel)
+                {
+                    if (item.SoLuongNhap == null || item.DonGiaNhap == null || item.SoLuongNhap < 1 || item.DonGiaNhap < 100000)
+                    {
+                        @ViewBag.KetQuaNhap = "Nhập hàng không thành công";
+                        return View();
+                    }
+                    sp = db.SanPhams.Single(n => n.MaSP == item.MaSP);
+                    sp.SoLuongTon += item.SoLuongNhap;  //update solg tồn
+
+                    item.MaPN = model.MaPN; //gán MaPN cho all chitietpn
+                }
+                db.ChiTietPhieuNhaps.AddRange(lstModel);
+                db.SaveChanges();
+
+                return View();
+            }    
+            else
+            {
+                @ViewBag.KetQuaNhap = "Vui lòng thêm sản phẩm nhập";
+                return View();
             }
-            db.ChiTietPhieuNhaps.AddRange(lstModel);
-            db.SaveChanges();
-
-            return View();
         }
 
         [HttpGet]
@@ -70,7 +85,9 @@ namespace WebsiteBanHang.Controllers
             }
             SanPham sp = db.SanPhams.SingleOrDefault(n => n.MaSP == id);
             if (sp == null)
+            {
                 return HttpNotFound();
+            }
             return View(sp);
         }
 
@@ -86,11 +103,42 @@ namespace WebsiteBanHang.Controllers
 
             ctpn.MaPN = model.MaPN;
             SanPham sp = db.SanPhams.Single(n => n.MaSP == ctpn.MaSP);
+            if (ctpn.SoLuongNhap == null || ctpn.DonGiaNhap == null || ctpn.SoLuongNhap <1 || ctpn.DonGiaNhap < 100000)
+            {
+                @ViewBag.KetQuaNhap = "Nhập hàng không thành công";
+                return View(sp);
+            }
+
             sp.SoLuongTon += ctpn.SoLuongNhap;
             db.ChiTietPhieuNhaps.Add(ctpn);
             db.SaveChanges();
 
+            @ViewBag.KetQuaNhap = "Nhập hàng thành công";
             return View(sp);
+        }
+        public ActionResult DanhSachPhieuNhap()
+        {
+            //lấy ds đơn hàng chưa duyệt
+            var lst = db.PhieuNhaps;
+            return View(lst);
+        }
+
+        public ActionResult ChiTietPhieuNhap(int? id)
+        {
+            //ktra id hợp lệ
+            if (id == null)
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            PhieuNhap model = db.PhieuNhaps.SingleOrDefault(n => n.MaPN == id);
+            //ktra đơn hàng có tồn tại ko
+            if (model == null)
+            {
+                return HttpNotFound();
+            }
+            //hiển thị ds chitietdonhang 
+            var lstchiTietPhieuNhap = db.ChiTietPhieuNhaps.Where(n => n.MaPN == id);
+            ViewBag.ListChiTietPN = lstchiTietPhieuNhap;
+            ViewBag.TenKH = model.NhaCungCap.TenNCC;
+            return View(model);
         }
 
         //Giải phóng dung lượng biến db, để ở cuối controller

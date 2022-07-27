@@ -20,7 +20,7 @@
                 numericLinksCount: 10,
                 mode: WebGridPagerModes.All, firstText: "Trang đầu", lastText: "Trang cuối",
                 columns: grid.Columns(
-                    grid.Column("MaLoaiTV", "Mã Loại TV"),
+                    grid.Column("MaLoaiTV", "Mã Loại thành viên"),
                     grid.Column("TenLoai", "Tên loại"),                  
                     grid.Column(format: p => Html.ActionLink("Phân quyền", "PhanQuyen", new { id = p.MaLoaiTV }))
                     )

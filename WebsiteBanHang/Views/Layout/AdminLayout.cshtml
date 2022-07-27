@@ -17,7 +17,15 @@
 
     <!-- Custom styles for this template-->
     <link href="~/Content/AdminLayout/css/sb-admin-2.min.css" rel="stylesheet">
-    <script src="~/Content/AdminLayout/vendor/jquery/jquery.min.js"></script>    
+    <script src="~/Content/AdminLayout/vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+        var warnMessage = "Are sure you want to close Application?";
+        window.onbeforeunload = function () { return warnMessage };
+        $(document).ready(function () {
+            $('a').click(function () { window.onbeforeunload = null; });
+            $('form').submit(function () { window.onbeforeunload = null; });
+        });
+    </script>
 </head>
 
 <body id="page-top">
@@ -29,23 +37,23 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <div class="sidebar-brand d-flex align-items-center justify-content-center" >
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 @*<div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>*@
+                <i class="fas fa-laugh-wink"></i>
+            </div>*@
                 <div class="sidebar-brand-text mx-3">Chức năng quản lý</div>
-            </div>
+            </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            @*<li class="nav-item active">
+            <li class="nav-item active">
                 <a class="nav-link" href="@Url.Action("Index","ThongKe")">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
-            </li>*@
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -111,6 +119,13 @@
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("DanhSachPhieuNhap","QuanLyPhieuNhap")">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Phiếu nhập</span>
+                </a>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider">
 
@@ -168,16 +183,6 @@
 
 
             </div>
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; giahuyle1@gmail.com</span>
-                    </div>
-                </div>
-            </footer>
-
         </div>
         <!-- End of Content Wrapper -->
 

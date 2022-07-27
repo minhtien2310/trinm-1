@@ -16,6 +16,7 @@ namespace WebsiteBanHang.Controllers
         [HttpGet]
         public ActionResult KQTimKiem(string sTuKhoa, int? page)
         {
+            ViewBag.KetQuaTimKiem = "";
             //Phân trang
             if (Request.HttpMethod != "GET")
                 page = 1;
@@ -24,14 +25,19 @@ namespace WebsiteBanHang.Controllers
             //tạo biến số trang hiện tại
             int PageNumber = (page ?? 1);
             //tìm kiếm theo tên sản phẩm
-            var lstSP = db.SanPhams.Where(n => n.TenSP.Contains(sTuKhoa));
+            var lstSP = db.SanPhams.Where(n => n.TenSP.Contains(sTuKhoa) && n.DaXoa == false && n.SoLuongTon.Value > 0);
+            
             ViewBag.TuKhoa = sTuKhoa;
-            if(lstSP == null)
-            {
-                return Content("Tài khoản hoặc mật khẩu không chính xác.");
-            }  
-            return View("Tài khoản hoặc mật khẩu không chính xác.");
+            var lstSPTemp = db.SanPhams.Where(n => n.TenSP.Contains(sTuKhoa));
 
+            if (lstSPTemp.Count() > 0)
+            {
+                ViewBag.KetQuaTimKiem = "Sản phẩm hết hàng";
+            }
+            else
+            {
+                ViewBag.KetQuaTimKiem = "Không tìm thấy sản phẩm";
+            }
             return View(lstSP.OrderBy(n=>n.TenSP).ToPagedList(PageNumber,PageSize));
         }
         [HttpPost]
@@ -40,6 +46,27 @@ namespace WebsiteBanHang.Controllers
             //gọi về hàm get tìm kiếm
 
             return RedirectToAction("KQTimKiem", new {@sTuKhoa = sTuKhoa });
+        }
+
+        protected void SetAlert(string message, int type)
+        {
+            TempData["AlertMessage"] = message;
+            if (type == 1)
+            {
+                TempData["AlertType"] = "alert-success";
+            }
+            else if (type == 2)
+            {
+                TempData["AlertType"] = "alert-warning";
+            }
+            else if (type == 3)
+            {
+                TempData["AlertType"] = "alert-danger";
+            }
+            else
+            {
+                TempData["AlertType"] = "alert-info";
+            }
         }
     }
 }

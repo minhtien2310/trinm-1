@@ -32,12 +32,12 @@ namespace WebsiteBanHang.Models
         public virtual DbSet<KhachHang> KhachHangs { get; set; }
         public virtual DbSet<LoaiSanPham> LoaiSanPhams { get; set; }
         public virtual DbSet<LoaiThanhVien> LoaiThanhViens { get; set; }
+        public virtual DbSet<LoaiThanhVien_Quyen> LoaiThanhVien_Quyen { get; set; }
         public virtual DbSet<NhaCungCap> NhaCungCaps { get; set; }
         public virtual DbSet<NhaSanXuat> NhaSanXuats { get; set; }
         public virtual DbSet<PhieuNhap> PhieuNhaps { get; set; }
+        public virtual DbSet<Quyen> Quyens { get; set; }
         public virtual DbSet<SanPham> SanPhams { get; set; }
         public virtual DbSet<ThanhVien> ThanhViens { get; set; }
-        public virtual DbSet<LoaiThanhVien_Quyen> LoaiThanhVien_Quyen { get; set; }
-        public virtual DbSet<Quyen> Quyens { get; set; }
     }
 }

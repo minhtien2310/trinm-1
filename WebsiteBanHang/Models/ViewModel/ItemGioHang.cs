@@ -9,12 +9,12 @@ namespace WebsiteBanHang.Models
     public class ItemGioHang
     {
         public int MaSP { get; set; }
+        public int MaLoaiSP { get; set; }
         public string TenSP { get; set; }
         public int SoLuong { get; set; }
         public decimal DonGia { get; set; }
         public decimal ThanhTien { get; set; }
         public string HinhAnh { get; set; }
-        public int MaLoaiSP { get; set; }
         public ItemGioHang() { }
         //constructor theo id (dùng cho trường hợp chỉ có sl=1)
         public ItemGioHang(int iMaSP) 
@@ -23,12 +23,12 @@ namespace WebsiteBanHang.Models
             {
                 this.MaSP = iMaSP;
                 SanPham sp = db.SanPhams.Single(n => n.MaSP == iMaSP);
+                this.MaLoaiSP = (int)sp.MaLoaiSP;
                 this.TenSP = sp.TenSP;
                 this.HinhAnh = sp.HinhAnh;
                 this.DonGia = sp.DonGia.Value;  //kiểu decimal dùng value để lấy gtri
                 this.SoLuong = 1;
                 this.ThanhTien = DonGia * SoLuong;
-                this.MaLoaiSP = sp.MaLoaiSP.Value;
             }
         }
         public ItemGioHang(int iMaSP,int sl)
@@ -42,8 +42,6 @@ namespace WebsiteBanHang.Models
                 this.DonGia = sp.DonGia.Value;
                 this.SoLuong = sl;
                 this.ThanhTien = DonGia * SoLuong;
-                this.MaLoaiSP = sp.MaLoaiSP.Value;
-
             }
         }
 

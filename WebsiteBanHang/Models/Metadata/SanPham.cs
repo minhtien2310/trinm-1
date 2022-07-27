@@ -18,6 +18,9 @@ namespace WebsiteBanHang.Models     //phải cùng namespace với class trong M
             [DisplayName("Tên sản phẩm")]
             public string TenSP { get; set; }
 
+            [DisplayName("Mã loại sản phẩm")]
+            public Nullable<int> MaLoaiSP { get; set; }
+
             [DisplayName("Đơn giá")]
             public Nullable<decimal> DonGia { get; set; }
 
@@ -53,9 +56,6 @@ namespace WebsiteBanHang.Models     //phải cùng namespace với class trong M
 
             [DisplayName("Mã nhà sản xuất")]
             public Nullable<int> MaNSX { get; set; }
-
-            [DisplayName("Mã loại sản phẩm")]
-            public Nullable<int> MaLoaiSP { get; set; }
 
             [DisplayName("Đã xóa")]
             public Nullable<bool> DaXoa { get; set; }

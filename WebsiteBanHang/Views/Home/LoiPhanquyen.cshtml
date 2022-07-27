@@ -14,7 +14,10 @@
 <body style="background-color: #3F3043">
     <div id="main">
         <div class="fof">
-            <h1>Bạn không có quyền truy cập vào trang web này @Html.ActionLink("Quay về","Index","ThongKe")</h1>
+             @{ 
+                 string Controler = ViewBag.controler;
+             }
+            <h1>Bạn không có quyền truy cập vào trang web này @Html.ActionLink("Quay về", "Index", Controler)</h1>
         </div>
     </div>
 </body>

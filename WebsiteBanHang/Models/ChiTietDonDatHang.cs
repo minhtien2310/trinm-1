@@ -20,6 +20,7 @@ namespace WebsiteBanHang.Models
         public string TenSP { get; set; }
         public Nullable<int> SoLuong { get; set; }
         public Nullable<decimal> Dongia { get; set; }
+        public Nullable<int> MaLoaiSP { get; set; }
     
         public virtual DonDatHang DonDatHang { get; set; }
         public virtual SanPham SanPham { get; set; }

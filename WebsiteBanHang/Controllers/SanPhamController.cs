@@ -41,7 +41,9 @@ namespace WebsiteBanHang.Controllers
 
             //nếu ko thì truy xuất csdl lấy ra sp với id tương ứng
             SanPham sp = db.SanPhams.SingleOrDefault(n => n.MaSP == id&& n.DaXoa==false);   //trả về null nếu ko có id nào tương ứng 
-            if(sp == null)
+            sp.LuotXem += 1;  //update solg tồn
+            db.SaveChanges();
+            if (sp == null)
             {
                 //thông báo nếu ko thấy sp này
                 return HttpNotFound();
@@ -60,7 +62,7 @@ namespace WebsiteBanHang.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             //load sp theo 2 tiêu chí là mã loại sp và mã nsx
-            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP && n.MaNSX == MaNSX);
+            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP && n.DaXoa == false && n.MaNSX == MaNSX && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat);
             if(lstSP.Count() == 0)
             {
                 //thông báo nếu ko thấy sp này
@@ -89,7 +91,7 @@ namespace WebsiteBanHang.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             //load sp theo 2 tiêu chí là mã loại sp và mã nsx
-            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP);
+            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat);
             if (lstSP.Count() == 0)
             {
                 //thông báo nếu ko thấy sp này
@@ -103,6 +105,32 @@ namespace WebsiteBanHang.Controllers
             //tạo biến số trang hiện tại
             int PageNumber = (page ?? 1);
             ViewBag.MaLoaiSP = MaLoaiSP;
+
+            return View(lstSP.OrderBy(n => n.MaSP).ToPagedList(PageNumber, PageSize));
+        }
+
+        public ActionResult HangSanPham(int? MaNSX, int? page)
+        {
+            //check tham số truyền vào có null ko
+            if (MaNSX == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            //load sp theo 2 tiêu chí là mã loại sp và mã nsx
+            var lstSP = db.SanPhams.Where(n => n.MaNSX == MaNSX && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat);
+            if (lstSP.Count() == 0)
+            {
+                //thông báo nếu ko thấy sp này
+                return HttpNotFound();
+            }
+            //Phân trang
+            if (Request.HttpMethod != "GET")
+                page = 1;
+            //tạo biến số sản phẩm trên trang
+            int PageSize = 6;
+            //tạo biến số trang hiện tại
+            int PageNumber = (page ?? 1);
+            ViewBag.MaNSX = MaNSX;
 
             return View(lstSP.OrderBy(n => n.MaSP).ToPagedList(PageNumber, PageSize));
         }

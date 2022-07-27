@@ -18,42 +18,47 @@ namespace WebsiteBanHang.Controllers
         // GET: Home/Index
         public ActionResult Index()
         {
+            ThanhVien tv = (ThanhVien)Session["TaiKhoan"];
+            if (tv == null)
+            {
+                FormsAuthentication.SetAuthCookie("CookieValue", false);
+            }
+
             //Lần lượt tạo các viewbag để lấy list sp từ csdl
             //List laptop mới
-            var lstLTM = db.SanPhams.Where(n => n.MaLoaiSP == 1 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstLTM = db.SanPhams.Where(n => n.MaLoaiSP == 1 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon >0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListLTM = lstLTM;
 
             //List PC mới
-            var lstPCM = db.SanPhams.Where(n => n.MaLoaiSP == 2 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstPCM = db.SanPhams.Where(n => n.MaLoaiSP == 2 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListPCM = lstPCM;
 
             //List dt mới
-            var lstDTM = db.SanPhams.Where(n => n.MaLoaiSP == 7 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstDTM = db.SanPhams.Where(n => n.MaLoaiSP == 7 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListDTM = lstDTM;
 
             //List bp mới
-            var lstBPM = db.SanPhams.Where(n => n.MaLoaiSP == 3 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstBPM = db.SanPhams.Where(n => n.MaLoaiSP == 3 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListBPM = lstBPM;
 
             //List chuột mới
-            var lstCM = db.SanPhams.Where(n => n.MaLoaiSP == 4 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstCM = db.SanPhams.Where(n => n.MaLoaiSP == 4 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListCM = lstCM;
 
             //List tai nghe mới
-            var lstTNM = db.SanPhams.Where(n => n.MaLoaiSP == 5 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstTNM = db.SanPhams.Where(n => n.MaLoaiSP == 5 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListTNM = lstTNM;
 
             //List màn hình mới
-            var lstMHM = db.SanPhams.Where(n => n.MaLoaiSP == 6 && n.Moi == 1 && n.DaXoa == false).ToList();
+            var lstMHM = db.SanPhams.Where(n => n.MaLoaiSP == 6 && n.Moi == 1 && n.DaXoa == false && n.SoLuongTon > 0).OrderByDescending(n => n.NgayCapNhat).ToList();
             //Gán vào viewbag
             ViewBag.ListMHM = lstMHM;
-            
 
             return View();
         }
@@ -117,7 +122,7 @@ namespace WebsiteBanHang.Controllers
         [HttpPost]
         public ActionResult DangNhap(FormCollection f)
         {
-            //ktra tên dn và pass
+
             string taikhoan = f["txtTenDangNhap"].ToString();   //lấy chuỗi trong txtTenDangNhap
             string matKhau = f["txtMatKhau"].ToString();    //lấy chuỗi trong txtMatKhau
 
@@ -149,6 +154,11 @@ namespace WebsiteBanHang.Controllers
         {
             Session["TaiKhoan"] = null; //thiết lập session là null
 
+            Session.Clear();
+            Session.Abandon();
+            Response.Cookies.Add(new HttpCookie("ASP.NET_SessionId", ""));
+
+
             FormsAuthentication.SignOut();  //xóa bộ nhớ cookie
 
             return RedirectToAction("Index");
@@ -156,6 +166,12 @@ namespace WebsiteBanHang.Controllers
 
         public ActionResult LoiPhanquyen()
         {
+            ViewBag.abc = "Home";
+            ThanhVien tv = (ThanhVien)Session["TaiKhoan"];
+            if(tv!=null && tv.MaLoaiTV ==2)
+            {
+                ViewBag.controler = "ThongKe";
+            }       
             return View();
         }
 

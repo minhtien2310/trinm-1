@@ -25,8 +25,6 @@
                 columns: grid.Columns(
                     grid.Column("MaLoaiSP", "Mã loại sản phẩm"),
                     grid.Column("TenLoai", "Tên loại sản phẩm"),
-@*                    grid.Column("Icon", "Icon"),
-                    grid.Column("BiDanh", "Bí danh"),*@
                     grid.Column(format: p => Html.ActionLink("Chỉnh sửa", "ChinhSua", new { id = p.MaLoaiSP })),
                     grid.Column(format: p => Html.ActionLink("Xóa", "Xoa", new { id = p.MaLoaiSP }))
                     )

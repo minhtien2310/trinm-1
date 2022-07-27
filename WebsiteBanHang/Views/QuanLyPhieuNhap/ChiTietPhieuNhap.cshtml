@@ -1,0 +1,51 @@
+﻿@using WebsiteBanHang.Models
+@model PhieuNhap
+@{
+    ViewBag.Title = "Quản lí đơn hàng";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="col-md-8">Thông tin phiếu nhập</h2>
+        @using (Html.BeginForm())
+        {
+            <div class="ChiTietDonHang table">
+                @{IEnumerable<ChiTietPhieuNhap> lstChiTietDH = (IEnumerable<ChiTietPhieuNhap>)ViewBag.ListChiTietPN; }
+                <table class="table table-bordered" id="table">
+                    <tr>
+                        <td colspan="4">
+                            <table style="100%" class="table-borderless">
+                                <tr>
+                                    <td>Mã phiếu nhập: <b>@Model.MaPN @Html.Hidden("MaPN", Model.MaPN)</b></td>
+                                    <td>Mã nhà cung cấp: <b>@Model.NhaCungCap.MaNCC </b></td>
+                                    <td>Nhà cung cấp: <b>@Model.NhaCungCap.TenNCC </b></td>
+                                    <td>Ngày nhập: <b>@Model.NgayNhap.Value.ToString("dd/MM/yyyy")</b></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    @* Thông tin chi tiết đơn hàng *@
+                    <tr>
+                        <td><b>Sản phẩm</b></td>
+                        <td><b>Hình ảnh</b></td>
+                        <td><b>Số lượng nhập</b></td>
+                        <td><b>Đơn giá đặt</b></td>
+                    </tr>
+                    @foreach (var item in lstChiTietDH)
+                    {
+                        <tr>
+                            <td>@item.SanPham.TenSP</td>
+                            <td><img width="150" height="150" src="@Url.Content("~/Content/HinhAnhSP/"+item.SanPham.HinhAnh)" /></td>
+                            <td>@item.SoLuongNhap</td>
+                            <td>@item.DonGiaNhap.Value.ToString("#,##")</td>
+                        </tr>
+                    }
+              
+
+                </table>
+            </div>
+         
+        }
+    </div>
+</div>

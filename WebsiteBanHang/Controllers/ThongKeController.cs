@@ -15,6 +15,12 @@ namespace WebsiteBanHang.Controllers
         // GET: ThongKe
         public ActionResult Index()
         {
+            ThanhVien tv = (ThanhVien)Session["TaiKhoan"];
+            if (tv == null)
+            {
+                FormsAuthentication.SetAuthCookie("CookieValue", false);
+            }
+
             DateTime hienTai = DateTime.Today;
             ViewBag.SoNguoiTruyCap = HttpContext.Application["SoNguoiTruyCap"].ToString();   //lấy slg ng truy cập từ application đã tạo
             ViewBag.SoNguoiDangOnline = HttpContext.Application["SoNguoiDangOnline"].ToString();   //lấy slg ng online từ application đã tạo
@@ -79,6 +85,10 @@ namespace WebsiteBanHang.Controllers
 
         public ActionResult DangXuatAdmin()
         {
+            Session.Clear();
+            Session.Abandon();
+            Response.Cookies.Add(new HttpCookie("ASP.NET_SessionId", ""));
+
             Session["TaiKhoan"] = null; //thiết lập session là null
 
             FormsAuthentication.SignOut();  //xóa bộ nhớ cookie
@@ -111,10 +121,15 @@ namespace WebsiteBanHang.Controllers
         //thống kê doanh thu từ khi web thành lập
         public decimal ThongKeDoanhThu()
         {
-            decimal TongDoanhThu;
+            decimal TongDoanhThu = 0;
             try
             {
-                TongDoanhThu = db.ChiTietDonDatHangs.Sum(n => n.SoLuong * n.Dongia).Value;
+                var lstDDH = db.DonDatHangs.Where(n => n.DaThanhToan == true);  //lấy ds đơn hàng có date tương ứng
+
+                foreach (var item in lstDDH) //duyệt chi tiết từng đơn và tính tổng tiền
+                {
+                    TongDoanhThu += decimal.Parse(item.ChiTietDonDatHangs.Sum(n => n.SoLuong * n.Dongia).Value.ToString());
+                }
             }
             catch
             {
@@ -124,7 +139,7 @@ namespace WebsiteBanHang.Controllers
         }
         public decimal ThongKeDoanhThuThang(int Thang,int Nam)
         {
-            var lstDDH = db.DonDatHangs.Where(n => n.NgayDat.Value.Month == Thang && n.NgayDat.Value.Year == Nam);  //lấy ds đơn hàng có date tương ứng
+            var lstDDH = db.DonDatHangs.Where(n => n.NgayDat.Value.Month == Thang && n.NgayDat.Value.Year == Nam && n.DaThanhToan ==true);  //lấy ds đơn hàng có date tương ứng
             decimal TongDoanhThu = 0;
             foreach(var item in lstDDH) //duyệt chi tiết từng đơn và tính tổng tiền
             {
@@ -132,7 +147,108 @@ namespace WebsiteBanHang.Controllers
             }
             return TongDoanhThu;
         }
-        
+
+        public ActionResult ChiTietTongDoanhThu()
+        {
+            ViewBag.DoanhThuLT = FuncChiTietTongDoanhThu(1);
+            ViewBag.DoanhThuPC = FuncChiTietTongDoanhThu(2);
+            ViewBag.DoanhThuBP = FuncChiTietTongDoanhThu(3);
+            ViewBag.DoanhThuC = FuncChiTietTongDoanhThu(4);
+            ViewBag.DoanhThuTN = FuncChiTietTongDoanhThu(5);
+            ViewBag.DoanhThuMH = FuncChiTietTongDoanhThu(6);
+            ViewBag.DoanhThuDT = FuncChiTietTongDoanhThu(7);
+
+            ViewBag.SoLuongLT = SoLuongSanPhamBan(1);
+            ViewBag.SoLuongPC = SoLuongSanPhamBan(2);
+            ViewBag.SoLuongBP = SoLuongSanPhamBan(3);
+            ViewBag.SoLuongC = SoLuongSanPhamBan(4);
+            ViewBag.SoLuongTN = SoLuongSanPhamBan(5);
+            ViewBag.SoLuongMH = SoLuongSanPhamBan(6);
+            ViewBag.SoLuongDT = SoLuongSanPhamBan(7);
+
+            return View();
+        }
+        public decimal SoLuongSanPhamBan(int MaLoaiSP)
+        {
+            var lstDDH = db.DonDatHangs.Where(n => n.DaThanhToan == true);
+            decimal SoLuong = 0;
+            foreach (var item in lstDDH) //duyệt chi tiết từng đơn và tính tổng tiền
+            {
+                var temp = item.ChiTietDonDatHangs.Where(n => n.MaLoaiSP.Value == MaLoaiSP);
+
+                SoLuong += decimal.Parse(temp.Sum(n => n.SoLuong).Value.ToString());
+
+            }
+            return SoLuong;
+        }
+       
+        public decimal FuncChiTietTongDoanhThu(int MaLoaiSP)
+        {
+            var lstDDH = db.DonDatHangs.Where(n => n.DaThanhToan == true);
+
+            decimal TongDoanhThu = 0;
+            foreach (var item in lstDDH) //duyệt chi tiết từng đơn và tính tổng tiền
+            {
+                var temp = item.ChiTietDonDatHangs.Where(n => n.MaLoaiSP.Value == MaLoaiSP);
+                
+                TongDoanhThu += decimal.Parse(temp.Sum(n => n.SoLuong * n.Dongia).Value.ToString());
+
+            }
+            return TongDoanhThu;
+        }
+
+        public ActionResult ChiTietTongDoanhThuThang()
+        {
+            DateTime hienTai = DateTime.Today;
+
+            ViewBag.DoanhThuLT = FuncChiTietTongDoanhThuThang(1, hienTai.Month, hienTai.Year);
+            ViewBag.DoanhThuPC = FuncChiTietTongDoanhThuThang(2, hienTai.Month, hienTai.Year);
+            ViewBag.DoanhThuBP = FuncChiTietTongDoanhThuThang(3, hienTai.Month, hienTai.Year);
+            ViewBag.DoanhThuC = FuncChiTietTongDoanhThuThang(4, hienTai.Month, hienTai.Year);
+            ViewBag.DoanhThuTN = FuncChiTietTongDoanhThuThang(5, hienTai.Month, hienTai.Year);
+            ViewBag.DoanhThuMH = FuncChiTietTongDoanhThuThang(6, hienTai.Month, hienTai.Year);
+            ViewBag.DoanhThuDT = FuncChiTietTongDoanhThuThang(7, hienTai.Month, hienTai.Year);
+
+            ViewBag.SoLuongLT = SoLuongSanPhamBanThang(1, hienTai.Month, hienTai.Year);
+            ViewBag.SoLuongPC = SoLuongSanPhamBanThang(2, hienTai.Month, hienTai.Year);
+            ViewBag.SoLuongBP = SoLuongSanPhamBanThang(3, hienTai.Month, hienTai.Year);
+            ViewBag.SoLuongC = SoLuongSanPhamBanThang(4, hienTai.Month, hienTai.Year);
+            ViewBag.SoLuongTN = SoLuongSanPhamBanThang(5, hienTai.Month, hienTai.Year);
+            ViewBag.SoLuongMH = SoLuongSanPhamBanThang(6, hienTai.Month, hienTai.Year);
+            ViewBag.SoLuongDT = SoLuongSanPhamBanThang(7, hienTai.Month, hienTai.Year);
+
+            return View();
+        }
+
+        public decimal SoLuongSanPhamBanThang(int MaLoaiSP , int Thang, int Nam)
+        {
+            var lstDDH = db.DonDatHangs.Where(n => n.NgayDat.Value.Month == Thang && n.NgayDat.Value.Year == Nam && n.DaThanhToan ==true);
+
+            decimal SoLuong = 0;
+            foreach (var item in lstDDH) //duyệt chi tiết từng đơn và tính tổng tiền
+            {
+                var temp = item.ChiTietDonDatHangs.Where(n => n.MaLoaiSP.Value == MaLoaiSP);
+                SoLuong += decimal.Parse(temp.Sum(n => n.SoLuong).Value.ToString());
+
+            }
+            return SoLuong;
+        }
+
+        public decimal FuncChiTietTongDoanhThuThang(int MaLoaiSP, int Thang, int Nam)
+        {
+            var lstDDH = db.DonDatHangs.Where(n => n.NgayDat.Value.Month == Thang && n.NgayDat.Value.Year == Nam && n.DaThanhToan == true);
+
+            decimal TongDoanhThu = 0;
+            foreach (var item in lstDDH) //duyệt chi tiết từng đơn và tính tổng tiền
+            {
+                
+                var temp = item.ChiTietDonDatHangs.Where(n => n.MaLoaiSP.Value == MaLoaiSP);
+                TongDoanhThu += decimal.Parse(temp.Sum(n => n.SoLuong * n.Dongia).Value.ToString());
+
+            }
+            return TongDoanhThu;
+        }
+
         //Thống kê tổng đơn hàng
         public double ThongKeDonHang()
         {
@@ -159,6 +275,27 @@ namespace WebsiteBanHang.Controllers
             lstCauHoi.Add("Bài nhạc mà bạn yêu thích là gì?");
 
             return lstCauHoi;
+        }
+
+        protected void SetAlert(string message, int type)
+        {
+            TempData["AlertMessage"] = message;
+            if (type == 1)
+            {
+                TempData["AlertType"] = "alert-success";
+            }
+            else if (type == 2)
+            {
+                TempData["AlertType"] = "alert-warning";
+            }
+            else if (type == 3)
+            {
+                TempData["AlertType"] = "alert-danger";
+            }
+            else
+            {
+                TempData["AlertType"] = "alert-info";
+            }
         }
 
         //Giải phóng dung lượng biến db, để ở cuối controller

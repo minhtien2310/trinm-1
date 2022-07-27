@@ -8,7 +8,7 @@
                 {
                     ThanhVien tv = (ThanhVien)Session["TaiKhoan"];
                     <li class="mr-3">Xin chào @tv.HoTen</li>
-                    <li>@*@Html.ActionLink("Đăng xuất", "DangXuatAdmin", "ThongKe", new { @class = "lock" })*@ <a class="lock" href="@Url.Action("DangXuatAdmin","ThongKe")">Đăng xuất</a> </li>
+                    <li>@*@Html.ActionLink("Đăng xuất", "DangXuatAdmin", "ThongKe", new { @class = "lock" })*@ <a class="lock" href="@Url.Action("DangXuat", "Home")">Đăng xuất</a> </li>
                 }
                 else
                 {

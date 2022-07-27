@@ -167,59 +167,81 @@ namespace WebsiteBanHang.Controllers
         //chức năng đặt hàng
         public ActionResult DatHang(KhachHang kh)
         {
-            //ktra session giỏ hàng có tồn tại ko
-            if (Session["GioHang"] == null)
+            try
             {
-                return RedirectToAction("Index", "Home");
-            }
+                //ktra session giỏ hàng có tồn tại ko
+                if (Session["GioHang"] == null)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
 
-            //kiểm tra từng loại khách hàng
-            KhachHang khach = new KhachHang();
-            if(Session["TaiKhoan"] == null)     //nếu session rỗng thì là khách vãng lai
+                //kiểm tra từng loại khách hàng
+                KhachHang khach = new KhachHang();
+                if (Session["TaiKhoan"] == null)     //nếu session rỗng thì là khách vãng lai
+                {   
+                    if(kh.TenKH ==null || kh.DiaChi ==null || kh.Email == null)
+                    {
+                        return RedirectToAction("XemGioHang");
+                    }    
+                    //thêm khách hàng vào bảng khách hàng đối vs khách vãng lai
+                    khach = kh; //biến kh được truyền dữ liệu khi nhập thông tin vào form
+                    khach.MaThanhVien = null; //biến kh được truyền dữ liệu khi nhập thông tin vào form
+                    db.KhachHangs.Add(khach);   //thêm vào bảng kh
+                    db.SaveChanges();   //lưu vào db và tăng mãkh
+                }
+                else
+                {
+                    //đối vs kh là thành viên
+                    ThanhVien tv = (ThanhVien)Session["TaiKhoan"]; //tạo biến tv lấy dữ liệu tù session
+                    khach.TenKH = tv.HoTen; //  gắn dữ liệu vào biến khách hàng
+                    khach.DiaChi = tv.DiaChi;
+                    khach.Email = tv.Email;
+                    khach.SoDienThoai = tv.SoDienThoai;
+                    khach.MaThanhVien = tv.MaThanhVien;
+                    db.KhachHangs.Add(khach);   //thêm vào bảng kh
+                    db.SaveChanges();   //lưu vào db và tăng mãkh
+                }
+
+                //thêm đơn hàng
+                DonDatHang ddh = new DonDatHang();
+
+                ddh.MaKH = int.Parse(khach.MaKH.ToString()); //thêm vào makh lấy từ kh
+                ddh.NgayDat = DateTime.Now; //lấy ngày hiện tại trên hệ thống
+                ddh.TinhTrangGiaoHang = false;
+                ddh.DaThanhToan = false;
+                ddh.UuDai = 0;
+                ddh.DaHuy = false;
+                ddh.DaXoa = false;
+                db.DonDatHangs.Add(ddh);    //thêm vào bảng dondathang giá trị ddh
+                db.SaveChanges();   //update bảng đơn đặt hàng, và tạo mã ddh dùng cho chitietddh
+                SanPham sp;
+                //thêm chi tiết đơn đặt hàng
+                List<ItemGioHang> lstGH = LayGioHang(); //lấy list giỏ hàng
+                foreach (var item in lstGH)  //chạy vòng lập để lấy thông tin của từng sp trong giỏ hàng đưa vào chitietddh
+                {
+                    sp = db.SanPhams.Single(n => n.MaSP == item.MaSP);
+                    sp.SoLuongTon -= item.SoLuong;  //update solg tồn
+                    sp.SoLuotMua += item.SoLuong;
+
+                    ChiTietDonDatHang ctdh = new ChiTietDonDatHang();
+                    ctdh.MaDDH = ddh.MaDDH; // lấy mã tù ddh đã tạo
+                    ctdh.MaSP = item.MaSP;
+                    ctdh.TenSP = item.TenSP;
+                    ctdh.SoLuong = item.SoLuong;
+                    ctdh.Dongia = item.DonGia;
+                    ctdh.MaLoaiSP = item.MaLoaiSP;
+                    if(item.SoLuong > sp.SoLuongTon)
+                    {
+                        ctdh.SoLuong = sp.SoLuongTon;
+                    }  
+                    db.ChiTietDonDatHangs.Add(ctdh);
+                }
+                db.SaveChanges(); //update vào bảng chi tiết đơn đặt hàng
+            }
+            catch
             {
-                //thêm khách hàng vào bảng khách hàng đối vs khách vãng lai
-                khach = kh; //biến kh được truyền dữ liệu khi nhập thông tin vào form
-                db.KhachHangs.Add(khach);   //thêm vào bảng kh
-                db.SaveChanges();   //lưu vào db và tăng mãkh
-            }
-            else
-            {
-                //đối vs kh là thành viên
-                ThanhVien tv = (ThanhVien)Session["TaiKhoan"]; //tạo biến tv lấy dữ liệu tù session
-                khach.TenKH = tv.HoTen; //  gắn dữ liệu vào biến khách hàng
-                khach.DiaChi = tv.DiaChi;
-                khach.Email = tv.Email;
-                khach.SoDienThoai = tv.SoDienThoai;
-                db.KhachHangs.Add(khach);   //thêm vào bảng kh
-                db.SaveChanges();   //lưu vào db và tăng mãkh
-            }
 
-            //thêm đơn hàng
-            DonDatHang ddh = new DonDatHang();
-
-            ddh.MaKH = int.Parse(khach.MaKH.ToString()); //thêm vào makh lấy từ kh
-            ddh.NgayDat = DateTime.Now; //lấy ngày hiện tại trên hệ thống
-            ddh.TinhTrangGiaoHang = false;
-            ddh.DaThanhToan = false;
-            ddh.UuDai = 0;
-            ddh.DaHuy = false;
-            ddh.DaXoa = false;
-            db.DonDatHangs.Add(ddh);    //thêm vào bảng dondathang giá trị ddh
-            db.SaveChanges();   //update bảng đơn đặt hàng, và tạo mã ddh dùng cho chitietddh
-
-            //thêm chi tiết đơn đặt hàng
-            List<ItemGioHang> lstGH = LayGioHang(); //lấy list giỏ hàng
-            foreach(var item in lstGH)  //chạy vòng lập để lấy thông tin của từng sp trong giỏ hàng đưa vào chitietddh
-            {
-                ChiTietDonDatHang ctdh = new ChiTietDonDatHang();
-                ctdh.MaDDH = ddh.MaDDH; // lấy mã tù ddh đã tạo
-                ctdh.MaSP = item.MaSP;
-                ctdh.TenSP = item.TenSP;
-                ctdh.SoLuong = item.SoLuong;
-                ctdh.Dongia = item.DonGia;
-                db.ChiTietDonDatHangs.Add(ctdh);
             }
-            db.SaveChanges(); //update vào bảng chi tiết đơn đặt hàng
 
             Session["GioHang"] = null;  //sau khi thêm vào ddh thì giỏ hàng sẽ trống
             return RedirectToAction("XemGioHang");
@@ -266,7 +288,10 @@ namespace WebsiteBanHang.Controllers
             return lstGioHang.Sum(n => n.ThanhTien);    //trả về tổng tiền của list giỏ hàng
         }
         #endregion
-
+        public ActionResult LoiPhanquyen()
+        {
+            return View();
+        }
         //Giải phóng dung lượng biến db, để ở cuối controller
         protected override void Dispose(bool disposing)
         {

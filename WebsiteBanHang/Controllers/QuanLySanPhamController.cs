@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WebsiteBanHang.Models;
@@ -15,7 +16,7 @@ namespace WebsiteBanHang.Controllers
         // GET: QuanLySanPham
         public ActionResult Index()
         {
-
+            ViewBag.DSLoaiSP = db.LoaiSanPhams;
             return View(db.SanPhams.Where(n=>n.DaXoa==false).OrderBy(n=>n.MaSP));
         }
 
@@ -317,6 +318,62 @@ namespace WebsiteBanHang.Controllers
             return result;
         }
 
+        [HttpPost]
+        public ActionResult KQTimKiem(string sTuKhoa)
+        {
+            ViewBag.DSLoaiSP = db.LoaiSanPhams;
+            var lstSP = db.SanPhams.Where(n => n.TenSP.Contains(sTuKhoa) && n.DaXoa == false && n.SoLuongTon.Value > 0);
+
+            return View(lstSP.OrderBy(n => n.TenSP));
+        }
+
+        public ActionResult LoaiSanPham(int? MaLoaiSP, int? page)
+        {
+            ViewBag.DSLoaiSP = db.LoaiSanPhams;
+            //check tham số truyền vào có null ko
+            if (MaLoaiSP == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            //load sp theo 2 tiêu chí là mã loại sp và mã nsx
+            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP && n.DaXoa == false && n.SoLuongTon > 0).OrderBy(n => n.MaSP);
+            if (lstSP.Count() == 0)
+            {
+                //thông báo nếu ko thấy sp này
+                return HttpNotFound();
+            }
+            //Phân trang
+            if (Request.HttpMethod != "GET")
+                page = 1;
+            //tạo biến số sản phẩm trên trang
+            int PageSize = 6;
+            //tạo biến số trang hiện tại
+            int PageNumber = (page ?? 1);
+            ViewBag.MaLoaiSP = MaLoaiSP;
+
+            return View(lstSP);
+        }
+
+        protected void SetAlert(string message, int type)
+        {
+            TempData["AlertMessage"] = message;
+            if (type == 1)
+            {
+                TempData["AlertType"] = "alert-success";
+            }
+            else if (type == 2)
+            {
+                TempData["AlertType"] = "alert-warning";
+            }
+            else if (type == 3)
+            {
+                TempData["AlertType"] = "alert-danger";
+            }
+            else
+            {
+                TempData["AlertType"] = "alert-info";
+            }
+        }
         //Giải phóng dung lượng biến db, để ở cuối controller
         protected override void Dispose(bool disposing)
         {

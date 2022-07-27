@@ -27,6 +27,7 @@ namespace WebsiteBanHang.Models
         public Nullable<decimal> DonGia { get; set; }
         public Nullable<System.DateTime> NgayCapNhat { get; set; }
         public string CauHinh { get; set; }
+        public string MoTa { get; set; }
         public string HinhAnh { get; set; }
         public Nullable<int> SoLuongTon { get; set; }
         public Nullable<int> LuotXem { get; set; }
@@ -42,7 +43,6 @@ namespace WebsiteBanHang.Models
         public string HinhAnh2 { get; set; }
         public string HinhAnh3 { get; set; }
         public string HinhAnh4 { get; set; }
-        public string MoTa { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<BinhLuan> BinhLuans { get; set; }

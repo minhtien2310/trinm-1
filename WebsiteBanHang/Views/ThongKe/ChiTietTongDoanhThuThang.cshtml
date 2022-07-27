@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Chi tiết doanh thu tháng hiện tại";
+
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .table__heading {
+            background: #14caec;
+        }
+
+        .table thead tr th {
+            border: 1px solid #ff0000;
+        }
+
+        table, th, td {
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="font-size:40px; text-align:center; margin-top:10px; margin-bottom:10px;"> Chi tiết doanh thu tháng hiện tại</h2>
+    <table class="table">
+        <tr>
+            <th class="table__heading">Loại Sản Phẩm</th>
+            <th class="table__heading">Doanh Thu</th>
+            <th class="table__heading">Số lượng</th>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">Laptop</td>
+            <td class="table__content">@ViewBag.DoanhThuLT</td>
+            <td class="table__content">@ViewBag.SoLuongLT</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">PC</td>
+            <td class="table__content">@ViewBag.DoanhThuPC</td>
+            <td class="table__content">@ViewBag.SoLuongPC</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">Điện thoại</td>
+            <td class="table__content">@ViewBag.DoanhThuDT</td>
+            <td class="table__content">@ViewBag.SoLuongDT</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">Bàn phím</td>
+            <td class="table__content">@ViewBag.DoanhThuBP</td>
+            <td class="table__content">@ViewBag.SoLuongBP</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">Chuột</td>
+            <td class="table__content">@ViewBag.DoanhThuC</td>
+            <td class="table__content">@ViewBag.SoLuongC</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">Tai nghe</td>
+            <td class="table__content">@ViewBag.DoanhThuTN</td>
+            <td class="table__content">@ViewBag.SoLuongTN</td>
+        </tr>
+        <tr class="table__row">
+            <td class="table__content">Mà hình</td>
+            <td class="table__content">@ViewBag.DoanhThuMH</td>
+            <td class="table__content">@ViewBag.SoLuongMH</td>
+        </tr>
+    </table>
+
+</body>
+</html>

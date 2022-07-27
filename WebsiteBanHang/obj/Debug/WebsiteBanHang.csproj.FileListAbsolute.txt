@@ -1,538 +1,360 @@
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.dll.config
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.pdb
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.exe
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.exe.config
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.rsp
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.exe
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.exe.config
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.rsp
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CSharp.Core.targets
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Managed.Core.targets
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.VisualBasic.Core.targets
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Win32.Primitives.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.AppContext.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Collections.Immutable.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Console.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.DiagnosticSource.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.StackTrace.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Globalization.Calendars.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.Compression.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.Compression.ZipFile.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.Primitives.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Net.Http.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Net.Sockets.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Reflection.Metadata.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Algorithms.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Encoding.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Primitives.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Text.Encoding.CodePages.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Threading.Tasks.Extensions.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.ValueTuple.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.ReaderWriter.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XmlDocument.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XPath.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XPath.XDocument.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.exe
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.exe.config
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.rsp
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe.config
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Antlr3.Runtime.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.SqlServer.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.Web.Infrastructure.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Newtonsoft.Json.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Helpers.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Mvc.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Optimization.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Razor.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Deployment.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Razor.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/WebGrease.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.SqlServer.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Helpers.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Mvc.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Optimization.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Razor.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Deployment.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Razor.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Newtonsoft.Json.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Antlr3.Runtime.pdb
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CoreCompileInputs.cache
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CopyComplete
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.pdb
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.pdb
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/PagedList.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/PagedList.Mvc.dll
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/PagedList.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/bin/PagedList.Mvc.xml
-D:/Le-Gia-Huy/.Net/Module2 ASP MVC/Exercise/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csprojAssemblyReference.cache
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.dll.config
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.pdb
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.exe
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.exe.config
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.rsp
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.exe
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.exe.config
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.rsp
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CSharp.Core.targets
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Managed.Core.targets
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.VisualBasic.Core.targets
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Win32.Primitives.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.AppContext.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Collections.Immutable.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Console.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.DiagnosticSource.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.StackTrace.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Globalization.Calendars.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.Compression.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.Compression.ZipFile.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.Primitives.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Net.Http.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Net.Sockets.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Reflection.Metadata.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Algorithms.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Encoding.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Primitives.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Text.Encoding.CodePages.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Threading.Tasks.Extensions.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.ValueTuple.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.ReaderWriter.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XmlDocument.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XPath.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XPath.XDocument.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.exe
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.exe.config
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.rsp
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe.config
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Antlr3.Runtime.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.SqlServer.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.Web.Infrastructure.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Newtonsoft.Json.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.Mvc.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Helpers.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Mvc.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Optimization.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Razor.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Deployment.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Razor.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebGrease.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.pdb
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.SqlServer.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.Mvc.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Helpers.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Mvc.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Optimization.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Razor.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Deployment.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Razor.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Newtonsoft.Json.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Antlr3.Runtime.pdb
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.AssemblyReference.cache
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CoreCompileInputs.cache
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CopyComplete
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.dll
-D:/HCMUTE/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.pdb
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.dll.config
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebsiteBanHang.pdb
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.exe
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.exe.config
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csc.rsp
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.exe
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.exe.config
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/csi.rsp
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.CSharp.Core.targets
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Managed.Core.targets
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.VisualBasic.Core.targets
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/Microsoft.Win32.Primitives.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.AppContext.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Collections.Immutable.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Console.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.DiagnosticSource.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Diagnostics.StackTrace.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Globalization.Calendars.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.Compression.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.Compression.ZipFile.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.Primitives.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Net.Http.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Net.Sockets.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Reflection.Metadata.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Algorithms.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Encoding.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Primitives.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Text.Encoding.CodePages.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Threading.Tasks.Extensions.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.ValueTuple.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.ReaderWriter.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XmlDocument.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XPath.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/System.Xml.XPath.XDocument.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.exe
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.exe.config
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/vbc.rsp
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe.config
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Antlr3.Runtime.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.SqlServer.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.Web.Infrastructure.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Newtonsoft.Json.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.Mvc.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Helpers.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Mvc.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Optimization.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Razor.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Deployment.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Razor.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/WebGrease.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.pdb
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/CaptchaMvc.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/EntityFramework.SqlServer.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/PagedList.Mvc.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Helpers.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Mvc.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Optimization.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.Razor.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Deployment.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/System.Web.WebPages.Razor.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Newtonsoft.Json.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Antlr3.Runtime.pdb
-C:/DATN/WebsiteBanHang/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.AssemblyReference.cache
-C:/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CoreCompileInputs.cache
-C:/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CopyComplete
-C:/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.dll
-C:/DATN/WebsiteBanHang/WebsiteBanHang/obj/Debug/WebsiteBanHang.pdb
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/WebsiteBanHang.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/WebsiteBanHang.pdb
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/csc.exe
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/csc.exe.config
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/csc.rsp
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/csi.exe
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/csi.exe.config
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/csi.rsp
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.CSharp.Core.targets
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.Managed.Core.targets
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.VisualBasic.Core.targets
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/Microsoft.Win32.Primitives.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.AppContext.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Collections.Immutable.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Console.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Diagnostics.DiagnosticSource.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Diagnostics.StackTrace.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Globalization.Calendars.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.IO.Compression.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.IO.Compression.ZipFile.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.IO.FileSystem.Primitives.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Net.Http.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Net.Sockets.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Reflection.Metadata.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Algorithms.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Encoding.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.Primitives.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Text.Encoding.CodePages.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Threading.Tasks.Extensions.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.ValueTuple.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Xml.ReaderWriter.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Xml.XmlDocument.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Xml.XPath.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/System.Xml.XPath.XDocument.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/vbc.exe
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/vbc.exe.config
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/vbc.rsp
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/roslyn/VBCSCompiler.exe.config
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Antlr3.Runtime.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/CaptchaMvc.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/EntityFramework.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/EntityFramework.SqlServer.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Microsoft.Web.Infrastructure.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Newtonsoft.Json.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/PagedList.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/PagedList.Mvc.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Helpers.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Mvc.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Optimization.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Razor.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.WebPages.Deployment.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.WebPages.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.WebPages.Razor.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/WebGrease.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/CaptchaMvc.pdb
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/CaptchaMvc.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/EntityFramework.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/EntityFramework.SqlServer.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/PagedList.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/PagedList.Mvc.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Helpers.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Mvc.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Optimization.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.Razor.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.WebPages.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.WebPages.Deployment.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/System.Web.WebPages.Razor.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Newtonsoft.Json.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Antlr3.Runtime.pdb
-/Volumes/Data/Data/trinm/WebsiteBanHang/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-/Volumes/Data/Data/trinm/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CoreCompileInputs.cache
-/Volumes/Data/Data/trinm/WebsiteBanHang/obj/Debug/WebsiteBanHang.csproj.CopyComplete
-/Volumes/Data/Data/trinm/WebsiteBanHang/obj/Debug/WebsiteBanHang.dll
-/Volumes/Data/Data/trinm/WebsiteBanHang/obj/Debug/WebsiteBanHang.pdb
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\WebsiteBanHang.dll.config
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\WebsiteBanHang.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\WebsiteBanHang.pdb
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\csc.exe
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\csc.exe.config
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\csc.rsp
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\csi.exe
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\csi.exe.config
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\csi.rsp
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.AppContext.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Console.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.IO.Compression.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Net.Http.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.ValueTuple.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\vbc.exe
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\vbc.exe.config
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\vbc.rsp
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Antlr3.Runtime.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\CaptchaMvc.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\EntityFramework.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Newtonsoft.Json.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\PagedList.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\PagedList.Mvc.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Helpers.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Mvc.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Optimization.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Razor.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.WebPages.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\WebGrease.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\CaptchaMvc.pdb
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\CaptchaMvc.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\EntityFramework.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\PagedList.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\PagedList.Mvc.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Helpers.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Mvc.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Optimization.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.Razor.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.WebPages.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\System.Web.WebPages.Razor.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Newtonsoft.Json.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Antlr3.Runtime.pdb
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.AssemblyReference.cache
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CopyComplete
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
-C:\Users\Acer\Desktop\GitHub\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\WebsiteBanHang.dll.config
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\WebsiteBanHang.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\WebsiteBanHang.pdb
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\csc.exe
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\csc.exe.config
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\csc.rsp
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\csi.exe
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\csi.exe.config
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\csi.rsp
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.AppContext.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Console.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.IO.Compression.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Net.Http.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.ValueTuple.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\vbc.exe
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\vbc.exe.config
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\vbc.rsp
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Antlr3.Runtime.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\CaptchaMvc.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\EntityFramework.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Newtonsoft.Json.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\PagedList.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\PagedList.Mvc.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Helpers.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Mvc.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Optimization.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Razor.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.WebPages.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\WebGrease.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\CaptchaMvc.pdb
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\CaptchaMvc.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\EntityFramework.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\PagedList.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\PagedList.Mvc.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Helpers.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Mvc.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Optimization.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.Razor.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.WebPages.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\System.Web.WebPages.Razor.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Newtonsoft.Json.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Antlr3.Runtime.pdb
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.AssemblyReference.cache
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CopyComplete
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
-C:\Users\Administrator\Desktop\trinm\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.pdb
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe.config
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.rsp
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe.config
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.rsp
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.AppContext.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Console.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Globalization.Calendars.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Http.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Sockets.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.ValueTuple.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe.config
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.rsp
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\WebGrease.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.pdb
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CopyComplete
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.pdb
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\PagedList.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.dll
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\PagedList.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.xml
+D:\Le-Gia-Huy\.Net\Module2 ASP MVC\Exercise\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csprojAssemblyReference.cache
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.pdb
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe.config
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.rsp
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe.config
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.rsp
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.AppContext.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Console.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Globalization.Calendars.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Http.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Sockets.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.ValueTuple.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe.config
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.rsp
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebGrease.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.pdb
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.pdb
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.AssemblyReference.cache
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CopyComplete
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
+D:\HCMUTE\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.pdb
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe.config
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.rsp
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe.config
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.rsp
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Managed.Core.targets
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.AppContext.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Console.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Globalization.Calendars.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Http.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Sockets.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.ValueTuple.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XmlDocument.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe.config
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.rsp
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\WebGrease.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.pdb
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.pdb
+C:\DATN\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.AssemblyReference.cache
+C:\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
+C:\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CopyComplete
+C:\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
+C:\DATN\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.pdb
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.exe.config
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csc.rsp
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.exe.config
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\csi.rsp
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.AppContext.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Console.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Http.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.ValueTuple.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.exe.config
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\vbc.rsp
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\PagedList.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\WebGrease.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.pdb
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\CaptchaMvc.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\EntityFramework.SqlServer.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\PagedList.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\PagedList.Mvc.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Helpers.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Mvc.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Optimization.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.Razor.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Newtonsoft.Json.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Antlr3.Runtime.pdb
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.AssemblyReference.cache
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CopyComplete
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
+C:\Users\asus\Downloads\Compressed\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb

@@ -13,17 +13,38 @@
             <div class="ChiTietDonHang table">
                 @{IEnumerable<ChiTietDonDatHang> lstChiTietDH = (IEnumerable<ChiTietDonDatHang>)ViewBag.ListChiTietDH; }
                 <table class="table table-bordered" id="table">
-                    @* Thông tin đơn hàng *@
                     <tr>
                         <td colspan="4">
                             <table style="100%" class="table-borderless">
                                 <tr>
                                     <td>Mã đơn hàng: <b>@Model.MaDDH @Html.Hidden("MaDDH", Model.MaDDH)</b></td>
-                                    <td>Mã đơn hàng: <b>@Model.KhachHang.MaKH </b></td>
-                                    <td>Mã đơn hàng: <b>@Model.KhachHang.TenKH </b></td>
+                                    <td>Mã khách hàng: <b>@Model.KhachHang.MaKH </b></td>
+                                    <td>Tên khách hàng: <b>@Model.KhachHang.TenKH </b></td>
                                     <td>Ngày đặt: <b>@Model.NgayDat.Value.ToString("dd/MM/yyyy")</b></td>
-                                    <td>Đã thanh toán: @Html.EditorFor(model => model.DaThanhToan)</td>
-                                    <td>Đã giao: @Html.EditorFor(model => model.TinhTrangGiaoHang)</td>
+                                    @if (Model.DaHuy == false)
+                                    {
+                                        if (Model.TinhTrangGiaoHang == false && Model.DaThanhToan == true)
+                                        {
+                                            <td>Đã thanh toán: <b>@Model.DaThanhToan</b></td>
+                                            <td>Đã giao: @Html.EditorFor(model => model.TinhTrangGiaoHang)</td>
+                                        }
+                                        else if (Model.TinhTrangGiaoHang == false && Model.DaThanhToan == false)
+                                        {
+                                            <td>Đã thanh toán: @Html.EditorFor(model => model.DaThanhToan)</td>
+                                            <td>Đã giao: @Html.EditorFor(model => model.TinhTrangGiaoHang)</td>
+                                        }
+                                        else if(Model.TinhTrangGiaoHang == true && Model.DaThanhToan == true)
+                                        {
+                                            <td>Đã thanh toán: <b>@Model.DaThanhToan</b></td>
+                                            <td>Đã giao: <b>@Model.TinhTrangGiaoHang</b></td>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <td>Đã thanh toán: <b>@Model.DaThanhToan</b></td>
+                                        <td>Đã giao: <b>@Model.TinhTrangGiaoHang</b></td>
+                                    }
+
                                 </tr>
                             </table>
                         </td>
@@ -39,7 +60,7 @@
                     {
                         <tr>
                             <td>@item.SanPham.TenSP</td>
-                            <td><img width="150" height="50" src="@Url.Content("~/Content/HinhAnhSP/"+item.SanPham.HinhAnh)" /></td>
+                            <td><img width="150" height="150" src="@Url.Content("~/Content/HinhAnhSP/"+item.SanPham.HinhAnh)" /></td>
                             <td>@item.SoLuong</td>
                             <td>@item.Dongia.Value.ToString("#,##")</td>
                         </tr>
