@@ -26,15 +26,19 @@
                 <div class=" col-md-6">
                     <label class="col-form-label font-weight-bold ">Nhà cung cấp</label>
                     <select class="MaNCC form-control" name="MaNCC">
-                        @foreach (var item in lstNCC)
+                        @if (lstNCC != null)
                         {
-                            <option value="@item.MaNCC">@item.TenNCC</option>
+                            foreach (var item in lstNCC)
+                            {
+                                <option value="@item.MaNCC">@item.TenNCC</option>
+                            }
                         }
+
                     </select>
                 </div>
                 <div class="col-md-6">
                     <label class="col-form-label font-weight-bold ">Ngày nhập</label>
-                    <input type="text" class="datepicker form-control"  value="@ViewBag.NgayNhap" />
+                    <input type="text" class="datepicker form-control" value="@ViewBag.NgayNhap" />
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -46,10 +50,14 @@
                 <tr class="trAppend table-borderless">
                     <td>
                         <select class="ddlSanPham" name="">
-                            @foreach (var item in lstSanPham)
+                            @if (lstSanPham != null)
                             {
-                                <option value="@item.MaSP"> @item.TenSP</option>
+                                foreach (var item in lstSanPham)
+                                {
+                                    <option value="@item.MaSP"> @item.TenSP</option>
+                                }
                             }
+
                         </select>
                     </td>
                     <td>
@@ -81,7 +89,7 @@
 </div>
 <style>
     .trAppend {
-        display:none;
+        display: none;
     }
 </style>
 <script>
@@ -105,9 +113,9 @@
     ////krta
     //$("#btnNhapHang").click(function () {
     //    if (kiemTraDonGia() == false)
-    //    {   
+    //    {
     //        //nếu tồn tại 1 gtri bất kì class dongia kp số thì ko cho submit về server
-    //        return false;   
+    //        return false;
     //    }
 
     //    if (kiemTraSoLuong() == false) {
@@ -123,11 +131,11 @@
             var nameMaSanPham = "[" + id + "].MaSP";    //tạo ra masp
             var nameDonGiaNhap = "[" + id + "].DonGiaNhap";     //tạo dongia nhap
             var nameSoLuongNhap = "[" + id + "].SoLuongNhap";   //tạo ra solg nhap
-            
+
             $(this).find(".ddlSanPham").attr("name", nameMaSanPham);    //gán name cho dropdownlist
             $(this).find(".txtDonGia").attr("name", nameDonGiaNhap);    //gán name cho dongia nhap
             $(this).find(".txtSoLuong").attr("name", nameSoLuongNhap);  //gán name cho solg nhap
-            
+
         })
     };
 

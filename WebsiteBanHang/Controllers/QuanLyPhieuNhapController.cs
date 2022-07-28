@@ -25,8 +25,16 @@ namespace WebsiteBanHang.Controllers
         [HttpPost]
         public ActionResult NhapHang(PhieuNhap model, IEnumerable<ChiTietPhieuNhap> lstModel)
         {
-            if(lstModel !=null)
+            if (lstModel != null)
             {
+                foreach (var item in lstModel)
+                {
+                    if (item.SoLuongNhap == null || item.DonGiaNhap == null || item.SoLuongNhap < 1 || item.DonGiaNhap < 100000)
+                    {
+                        @ViewBag.KetQuaNhap = "Nhập hàng không thành công";
+                        return View();
+                    }
+                }
                 @ViewBag.KetQuaNhap = "Nhập hàng thành công";
                 ViewBag.MaNCC = db.NhaCungCaps;
                 ViewBag.ListSanPham = db.SanPhams;
@@ -43,11 +51,6 @@ namespace WebsiteBanHang.Controllers
 
                 foreach (var item in lstModel)
                 {
-                    if (item.SoLuongNhap == null || item.DonGiaNhap == null || item.SoLuongNhap < 1 || item.DonGiaNhap < 100000)
-                    {
-                        @ViewBag.KetQuaNhap = "Nhập hàng không thành công";
-                        return View();
-                    }
                     sp = db.SanPhams.Single(n => n.MaSP == item.MaSP);
                     sp.SoLuongTon += item.SoLuongNhap;  //update solg tồn
 
@@ -57,7 +60,7 @@ namespace WebsiteBanHang.Controllers
                 db.SaveChanges();
 
                 return View();
-            }    
+            }
             else
             {
                 @ViewBag.KetQuaNhap = "Vui lòng thêm sản phẩm nhập";
@@ -78,7 +81,7 @@ namespace WebsiteBanHang.Controllers
         {
             ViewBag.MaNCC = new SelectList(db.NhaCungCaps.OrderBy(n => n.TenNCC), "MaNCC", "TenNCC");
 
-            if(id == null)
+            if (id == null)
             {
                 Response.StatusCode = 404;
                 return null;
@@ -94,6 +97,13 @@ namespace WebsiteBanHang.Controllers
         [HttpPost]
         public ActionResult NhapHangDon(PhieuNhap model, ChiTietPhieuNhap ctpn)
         {
+            SanPham sp = db.SanPhams.Single(n => n.MaSP == ctpn.MaSP);
+
+            if (ctpn.SoLuongNhap == null || ctpn.DonGiaNhap == null || ctpn.SoLuongNhap < 1 || ctpn.DonGiaNhap < 100000)
+            {
+                @ViewBag.KetQuaNhap = "Nhập hàng không thành công";
+                return View(sp);
+            }
             ViewBag.MaNCC = new SelectList(db.NhaCungCaps.OrderBy(n => n.TenNCC), "MaNCC", "TenNCC", model.MaNCC);
 
             model.NgayNhap = DateTime.Now;
@@ -102,12 +112,7 @@ namespace WebsiteBanHang.Controllers
             db.SaveChanges();   //save để lấy MaPN gán cho lst chitietpn
 
             ctpn.MaPN = model.MaPN;
-            SanPham sp = db.SanPhams.Single(n => n.MaSP == ctpn.MaSP);
-            if (ctpn.SoLuongNhap == null || ctpn.DonGiaNhap == null || ctpn.SoLuongNhap <1 || ctpn.DonGiaNhap < 100000)
-            {
-                @ViewBag.KetQuaNhap = "Nhập hàng không thành công";
-                return View(sp);
-            }
+
 
             sp.SoLuongTon += ctpn.SoLuongNhap;
             db.ChiTietPhieuNhaps.Add(ctpn);

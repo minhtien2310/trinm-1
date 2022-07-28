@@ -30,18 +30,26 @@
         {
             @Html.Hidden("MaSP", Model.MaSP)
             <div class="row">
-                <div class="col-md-4">
-                    @{var lstNCC = (SelectList)ViewBag.MaNCC;}
-                    Nhà cung cấp: @Html.DropDownList("MaNCC", lstNCC, new { @class = "MaNCC" })
-                </div>
-                <div class="col-md-4 txtSoLuong">
-                    Số lượng nhập: @Html.TextBox("SoLuongNhap")
-                </div>
-                <div class="col-md-4 txtDonGia">
-                    Đơn giá nhập: @Html.TextBox("DonGiaNhap")
-                </div>
-                <div class="col-md-4">
-                </div>
+                @try
+                {
+                    <div class="col-md-4">
+                        @{var lstNCC = (SelectList)ViewBag.MaNCC;}
+                        Nhà cung cấp: @Html.DropDownList("MaNCC", lstNCC, new { @class = "MaNCC" })
+                    </div>
+                    <div class="col-md-4 txtSoLuong">
+                        Số lượng nhập: @Html.TextBox("SoLuongNhap")
+                    </div>
+                    <div class="col-md-4 txtDonGia">
+                        Đơn giá nhập: @Html.TextBox("DonGiaNhap")
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                }
+                catch
+                {
+
+                }
+
             </div>
             <div class="clear right mr-3" style="text-align:right;">
                 <br />
@@ -53,57 +61,56 @@
     </div>
 </div>
 @*<script>
-    $("#btnNhapHang").click(function () {
-        if (kiemTraDonGia() == false) {
-            //nếu tồn tại 1 gtri bất kì class dongia kp số thì ko cho submit về server
-            return false;
-        }
+        $("#btnNhapHang").click(function () {
+            if (kiemTraDonGia() == false) {
+                //nếu tồn tại 1 gtri bất kì class dongia kp số thì ko cho submit về server
+                return false;
+            }
 
-        if (kiemTraSoLuong() == false) {
-            //nếu tồn tại 1 gtri bất kì class dongia kp số thì ko cho submit về server
-            return false;
-        }
-    });
-
-    function kiemTraDonGia() {
-
-        var bl = true;
-        //duyệt vòng lặp each
-        $(".txtDonGia").each(function () {
-            var giatri = $(this).val();
-            alert(giatri);
-            if (isNaN(giatri) == true) {
-                alert("Đơn giá ko hợp lệ!");
-                bl = false;
-                return bl;
-            } else if (giatri <= 0) {
-                alert("Giá phải lớn hơn 0");
-                bl = false;
-                return bl;
+            if (kiemTraSoLuong() == false) {
+                //nếu tồn tại 1 gtri bất kì class dongia kp số thì ko cho submit về server
+                return false;
             }
         });
-        return bl;
-    }
-    function kiemTraSoLuong() {
 
-        var bl = true;
-        //duyệt vòng lặp each
-        $(".txtSoLuong").each(function () {
-            var giatri = $(this).val();
-            alert(giatri);
+        function kiemTraDonGia() {
 
-            if (isNaN(giatri) == true) {
-                alert("Số lượng không hợp lệ!");
-                bl = false;
-                return bl;
-            }
-            else if (giatri <= 0) {
-                alert("Số lượng sản phẩm phải lớn hơn 0");
-                bl = false;
-                return bl;
-            }
-        });
-        return bl;
-    }
-</script>*@
-    
+            var bl = true;
+            //duyệt vòng lặp each
+            $(".txtDonGia").each(function () {
+                var giatri = $(this).val();
+                alert(giatri);
+                if (isNaN(giatri) == true) {
+                    alert("Đơn giá ko hợp lệ!");
+                    bl = false;
+                    return bl;
+                } else if (giatri <= 0) {
+                    alert("Giá phải lớn hơn 0");
+                    bl = false;
+                    return bl;
+                }
+            });
+            return bl;
+        }
+        function kiemTraSoLuong() {
+
+            var bl = true;
+            //duyệt vòng lặp each
+            $(".txtSoLuong").each(function () {
+                var giatri = $(this).val();
+                alert(giatri);
+
+                if (isNaN(giatri) == true) {
+                    alert("Số lượng không hợp lệ!");
+                    bl = false;
+                    return bl;
+                }
+                else if (giatri <= 0) {
+                    alert("Số lượng sản phẩm phải lớn hơn 0");
+                    bl = false;
+                    return bl;
+                }
+            });
+            return bl;
+        }
+    </script>*@

@@ -17,7 +17,7 @@ namespace WebsiteBanHang.Controllers
         public ActionResult Index()
         {
             ViewBag.DSLoaiSP = db.LoaiSanPhams;
-            return View(db.SanPhams.Where(n=>n.DaXoa==false).OrderBy(n=>n.MaSP));
+            return View(db.SanPhams.OrderBy(n=>n.MaSP));
         }
 
         [HttpGet]
@@ -322,7 +322,7 @@ namespace WebsiteBanHang.Controllers
         public ActionResult KQTimKiem(string sTuKhoa)
         {
             ViewBag.DSLoaiSP = db.LoaiSanPhams;
-            var lstSP = db.SanPhams.Where(n => n.TenSP.Contains(sTuKhoa) && n.DaXoa == false && n.SoLuongTon.Value > 0);
+            var lstSP = db.SanPhams.Where(n => n.TenSP.Contains(sTuKhoa));
 
             return View(lstSP.OrderBy(n => n.TenSP));
         }
@@ -336,7 +336,7 @@ namespace WebsiteBanHang.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             //load sp theo 2 tiêu chí là mã loại sp và mã nsx
-            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP && n.DaXoa == false && n.SoLuongTon > 0).OrderBy(n => n.MaSP);
+            var lstSP = db.SanPhams.Where(n => n.MaLoaiSP == MaLoaiSP).OrderBy(n => n.MaSP);
             if (lstSP.Count() == 0)
             {
                 //thông báo nếu ko thấy sp này
