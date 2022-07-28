@@ -11,13 +11,13 @@
     
     <title>BaoLoi</title>
 </head>
-<body style="background-color: #3F3043">
+<body style="background-color: white;">
     <div id="main">
         <div class="fof">
              @{ 
                  string Controler = ViewBag.controler;
              }
-            <h1>Bạn không có quyền truy cập vào trang web này @Html.ActionLink("Quay về", "Index", Controler)</h1>
+            <h1 style="color: black;">Bạn không có quyền truy cập vào trang web này @Html.ActionLink("Quay về", "Index", Controler)</h1>
         </div>
     </div>
 </body>
